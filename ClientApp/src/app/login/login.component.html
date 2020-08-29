@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-4">
+
+        <div class="col-md-12" *ngIf="!loginSuccess">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                    aria-describedby="basic-addon1" autocomplete="off" [(ngModel)]="userName">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="password" class="form-control" placeholder="Password" aria-label="Password"
+                    aria-describedby="basic-addon1" autocomplete="off" [(ngModel)]="userPass">
+            </div>
+            <span class="btn btn-success" (click)="login()">Login</span>
+        </div>
+        <div class="alert" *ngIf="btnClicked" [ngClass]="{'alert-danger': !loginSuccess, 'alert-success': loginSuccess}"
+            role="alert">
+            {{loginSuccess ? 'Logged in successfully' : 'Failed to login'}}
+        </div>
+        <div class="row col-md-12">
+            <span *ngIf="btnClicked && loginSuccess" class="btn btn-danger" (click)="logout()">Logout</span>
+        </div>
+    </div>
+</div>

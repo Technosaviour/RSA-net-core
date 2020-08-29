@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA Angular .NET CORE", "RSA Angular .NET CORE.csproj", "{C08A3D2E-5DCF-440F-B08B-E0337E0025AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C08A3D2E-5DCF-440F-B08B-E0337E0025AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08A3D2E-5DCF-440F-B08B-E0337E0025AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08A3D2E-5DCF-440F-B08B-E0337E0025AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08A3D2E-5DCF-440F-B08B-E0337E0025AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DC62096-1CC8-47D6-B1A7-A437A1AB9FCD}
+	EndGlobalSection
+EndGlobal
